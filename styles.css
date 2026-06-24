@@ -426,12 +426,53 @@ main {
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  
 }
-
+.education__college {
+  color: var(--clr-primary);
+  font-weight: 600;
+}
 .education__item:hover {
   transform: translateY(-7px);
 }
 
 .education__item p {
   margin-top: 0.8em;
+}
+
+/* Experience */
+
+.experience__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience__item {
+  background-color: var(--clr-bg-alt);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--clr-primary);
+  transition: transform 0.2s linear;
+}
+
+.experience__item:hover {
+  transform: translateY(-7px);
+}
+
+.experience__item h3 {
+  margin-bottom: 0.3rem;
+}
+
+.experience__item h4 {
+  font-size: 1rem;
+  color: var(--clr-primary);
+  margin-bottom: 0.5rem;
+}
+
+.experience__date {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--clr-fg);
 }
